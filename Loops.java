@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Loops {
     public static void main(String[] args) {
@@ -133,5 +134,26 @@ public class Loops {
     //     System.out.println("WRONG OPERATOR SELECTED");
     // }
     // input.close();
+
+    System.out.println("ENTER A NUMBER");
+
+    Scanner input = new Scanner(System.in);
+
+    int num = input.nextInt();
+
+    int c = 2;
+     while(c<num){
+        if(num % c == 0){
+            System.out.println(num +" IS NOT A PRIME NUMBER");
+            return;
+        }
+        c++;
+     }
+     if(num > 1){
+        System.out.println(num +" is prime number");
+     }
+     else{
+        System.out.println(num +" is not a prime number");
+     }
 }
 }
