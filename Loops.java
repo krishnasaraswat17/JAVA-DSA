@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Loops {
     public static void main(String[] args) {
@@ -135,25 +134,42 @@ public class Loops {
     // }
     // input.close();
 
-    System.out.println("ENTER A NUMBER");
+    // System.out.println("ENTER A NUMBER");
 
-    Scanner input = new Scanner(System.in);
+    // Scanner input = new Scanner(System.in);
 
-    int num = input.nextInt();
+    // int num = input.nextInt();
 
-    int c = 2;
-     while(c<num){
-        if(num % c == 0){
-            System.out.println(num +" IS NOT A PRIME NUMBER");
-            return;
-        }
-        c++;
-     }
-     if(num > 1){
-        System.out.println(num +" is prime number");
-     }
-     else{
-        System.out.println(num +" is not a prime number");
-     }
+    // int c = 2;
+    //  while(c<num){
+    //     if(num % c == 0){
+    //         System.out.println(num +" IS NOT A PRIME NUMBER");
+    //         return;
+    //     }
+    //     c++;
+    //  }
+    //  if(num > 1){
+    //     System.out.println(num +" is prime number");
+    //  }
+    //  else{
+    //     System.out.println(num +" is not a prime number");
+    //  }
+
+    // LOOP SYNTAX
+
+    // for loop Syntax
+    
+    int n = 5;
+    for(int num =1; num<=n; num++){
+        System.out.println("RAM RAM JI ");
+    }
+
+    // While Loop Syntax 
+
+    int i =1;
+    while(i<=10){
+        System.out.println("SHREE RADHE SHREE RADHE");
+        i++;
+    }
 }
 }
